@@ -2,16 +2,39 @@
     font-family: arial;
 }
 .top {
-    height: auto;
-    overflow: hidden;
+    height: 100px;
+    overflow: auto;
     text-align: left;
+
 }
 .top hgroup {
-    padding: auto;
+    margin-top: 1em;
     line-height: 7px;
 }
 .subtituloTop {
     padding-right: 65px;
+    margin-top: 5px;
+}
+.searchBar {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: -50px;
+    margin-right: 1em;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: "Dancing Script","cursive";
+
+}
+.searchBar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
 }
 
 /*BANNER Y SLIDESHOW*/
@@ -43,32 +66,89 @@
     text-decoration: none;
 }
 .menu a:hover{
-    background-color: #706fd3;
+    background-color: #576574;
+    font-size: 22px;
+    font-family: "Dancing Script","cursive";
 }
 
 /*CUERPO Y ARTICULOS*/
-.seccion hgroup {
-    border: 1px solid black;
+.seccion {
+    float: left;
 }
-
-.cuerpo {
-    border-radius: 25px;
+.cuerpo{
     display: grid;
+    grid-template-columns: 520px 520px;
+    grid-template-rows: 272px 272px 272px;
+}
+.cuerpo div:hover{
+    background: #f1f2f6;
+}
+.articulo {
     text-align: center;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 50% 50%;
-    grid-gap: 1em;
-    margin-top: 1em;
-    margin-bottom: 2em;
-    margin-right: 2em;
-    margin-left: 1em;
+    margin: 1em;
+    box-shadow: 5px 5px 15px grey;
+}   
 
+/*SECCION PARA FOTOS DE LOS POST*/
+
+.post1{
+    border-radius: 150px;
+}
+.columna {
+    float: right;
+    overflow: auto;
 }
 
+.columnaResumen {
+    padding: 2em;
+    margin: 1em;
+    background: white;
+    height: 425px;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px grey;
+
+}
+.koalaResumen {
+    border-radius: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.galeria {
+    padding-top: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    margin: 1em;
+    background: white;
+    height: 260px;
+    box-shadow: 5px 5px 15px grey;
+}
+.contenidoGaleria {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+aside div:hover {
+    background: #f1f2f6;
+}
+
+
+/*PIE */
 .pie {
     clear: both;
     text-align: center;
     border: 1px solid black;
     color: white;
     background: black;
+}
+.tituloFooter {
+    font-family: "Dancing Script","light";
+    font-size: 25px;
+    padding: auto;
+    margin: 5px;
 }
