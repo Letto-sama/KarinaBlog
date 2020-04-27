@@ -49,7 +49,7 @@
     text-align: center;
 }
 .menu {
-    background-color: #353b48;
+    background: #353b48;
     overflow: auto;
     white-space: nowrap;
 }
