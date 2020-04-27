@@ -1,6 +1,9 @@
 * {
     font-family: arial;
 }
+.contenedor {
+    background: #bdc3c7;
+}
 .top {
     height: 100px;
     overflow: auto;
@@ -49,7 +52,7 @@
     text-align: center;
 }
 .menu {
-    background-color: black;
+    background-color: #2c2c54;
     overflow: auto;
     white-space: nowrap;
 }
@@ -59,15 +62,13 @@
     font-family: oswald;
     font-size: 18px;
     text-align: center;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 1em;
-    padding-top: 1em;
+    min-width: 100px;
+    min-height: 1px;
+    padding: 1em;
     text-decoration: none;
 }
 .menu a:hover{
-    background-color: #576574;
-    font-size: 22px;
+    font-size: 18px;
     font-family: "Dancing Script","cursive";
 }
 
@@ -84,6 +85,7 @@
     background: #f1f2f6;
 }
 .articulo {
+    background: white;
     text-align: center;
     margin: 1em;
     box-shadow: 5px 5px 15px grey;
@@ -144,7 +146,7 @@ aside div:hover {
     text-align: center;
     border: 1px solid black;
     color: white;
-    background: black;
+    background: #353b48;
 }
 .tituloFooter {
     font-family: "Dancing Script","light";
