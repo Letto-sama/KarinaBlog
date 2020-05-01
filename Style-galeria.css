@@ -1,0 +1,179 @@
+* {
+    font-family: arial;
+}
+.top {
+    height: 100px;
+    overflow: auto;
+    text-align: center;
+
+}
+.top hgroup {
+    margin-top: 1em;
+    line-height: 10px;
+}
+.subtituloTop{
+    font-size: 18px;
+}
+
+.searchBar {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: -50px;
+    margin-right: 1em;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: "Dancing Script","cursive";
+
+}
+.searchBar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+/*BANNER Y SLIDESHOW*/
+.bannerGeneral {
+    max-width: 100%;
+    width: 100%;
+    height: 380px;
+}
+
+/*BARRA DEL MENU*/
+.navegador{
+    text-align: center;
+}
+.menu {
+    background-color: #353b48;
+    overflow: auto;
+    white-space: nowrap;
+    height: 40px;
+    padding-top: 0.4em;
+}
+.menu a {
+    display: inline-block;
+    color: white;
+    font-family: oswald;
+    font-size: 20px;
+    text-align: center;
+    min-width: 80px;
+    min-height: 1px;
+    margin-right: 2em;
+    text-decoration: none;
+}
+.menu a:hover{
+    font-size: 20px;
+    font-family: "indie flower","cursive";
+}
+
+/*CUERPO Y ARTICULOS*/
+.seccion {
+    float: left;
+}
+.seccionTitulo {
+    margin-left: 1em;
+}
+.cuerpo{
+    display: grid;
+    grid-template-columns: 448px 448px 448px;
+    grid-template-rows: 272px 272px;
+}
+.cuerpo div:hover{
+    background: #f1f2f6;
+}
+.articulo {
+    background: white;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 5px 5px 15px grey;
+}   
+
+/*SECCION DE MOSTRAR MAS*/
+.cargarMas{
+    font-family: "Dancing Script","light";
+    font-size: 25px;
+    margin: 0;
+    margin-top: 2em;
+    text-align: center;
+}
+.mostrarMas {
+    float: right;
+    margin-right: 11em;
+}
+.mostrarMas i{
+    font-size: 80px;
+    padding-left: 20px;
+}
+
+.mostrarMas i:hover {
+    color: purple;
+}
+/*SECCION PARA FOTOS DE LOS POST*/
+
+.post1{
+    border-radius: 150px;
+}
+.columna {
+    float: right;
+    overflow: auto;
+}
+
+.columnaResumen {
+    padding: 2em;
+    margin: 1em;
+    background: white;
+    height: 425px;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px grey;
+
+}
+.koalaResumen {
+    border-radius: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.galeria {
+    padding-top: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    margin: 1em;
+    background: white;
+    height: 260px;
+    box-shadow: 5px 5px 15px grey;
+}
+.contenidoGaleria {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+aside div:hover {
+    background: #f1f2f6;
+}
+
+
+/*PIE */
+.pie {
+    clear: both;
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+    background: #353b48;
+}
+.tituloFooter {
+    font-family: "Dancing Script","light";
+    font-size: 25px;
+    padding: auto;
+    margin: 5px;
+}
